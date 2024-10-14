@@ -1,0 +1,240 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Nunito Sans; 
+    text-decoration: none; 
+  } 
+  body { 
+    background-color: rgba(25, 25, 27, 1); 
+  } 
+  #header { 
+    padding-block: 20px; 
+  } 
+  h1 { 
+    color: #fff; 
+  } 
+  p { 
+    color: rgba(255, 255, 255, 0.7); 
+  } 
+  .container { 
+    max-width: 1300px; 
+    width: 100%; 
+    margin-inline: auto; 
+  } 
+  .header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  } 
+  .logo { 
+    display: flex; 
+    gap: 4px; 
+    color: #fff; 
+  } 
+   
+  nav { 
+    display: flex; 
+    gap: 40px; 
+  } 
+   
+  nav a { 
+    color: rgba(255, 255, 255, 0.7); 
+    font-size: 16px; 
+  } 
+   
+  .header input { 
+    background: none; 
+    border: 2px solid rgba(255, 255, 255, 1); 
+    border-radius: 5px; 
+    height: 25px; 
+  } 
+   
+  #main { 
+    padding-block: 60px; 
+  } 
+  .main { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  } 
+  .main-text { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 60px; 
+  } 
+   
+  .main-text h1 { 
+    width: 582px; 
+    height: 240px; 
+    font-weight: 600; 
+    font-size: 75px; 
+    color: rgba(255, 255, 255, 1); 
+  } 
+   
+  .main-text p { 
+    width: 430px; 
+    height: 110px; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 30px; 
+    color: rgba(255, 255, 255, 0.7); 
+    padding-top: 35px; 
+  } 
+   
+  button { 
+    width: 200px; 
+    height: 50px; 
+    background-color: rgba(84, 84, 212, 1); 
+    font-size: 16px; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+  } 
+   
+  .main-image { 
+    max-width: 500px; 
+    position: relative; 
+  } 
+   
+  .main-image img { 
+    width: 100%; 
+  } 
+   
+  .vector-1 { 
+    max-width: 70px; 
+    width: 100%; 
+    position: absolute; 
+    top: 90px; 
+    left: -35px; 
+  } 
+  .vector-2 { 
+    max-width: 45px; 
+    width: 100%; 
+    position: absolute; 
+    top: 64px; 
+    right: 37px; 
+  } 
+   
+  .vector-3 { 
+    max-width: 55px; 
+    width: 100%; 
+    position: absolute; 
+    bottom: 10px; 
+    left: -34px; 
+  } 
+  .vector-4 { 
+    max-width: 40px; 
+    width: 100%; 
+    position: absolute; 
+    bottom: 40px; 
+    right: 24px; 
+  } 
+  .service-title { 
+    padding-block: 80px; 
+    display: flex; 
+    justify-content: center; 
+  } 
+  .service-title h1 { 
+    font-size: 45px; 
+    width: 450px; 
+    font-weight: 700;
+    text-align: center; 
+    color: #fff; 
+  } 
+   
+  .service { 
+    height: 460px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  } 
+  .box { 
+    width: 350px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    gap: 13px; 
+  } 
+  .backround-icon { 
+    background-color: rgba(84, 84, 212, 0.1); 
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  } 
+  .box h1 { 
+    font-size: 20px; 
+  } 
+  .box p { 
+    font-size: 19px; 
+  } 
+   
+  .work-title h1 { 
+    font-size: 45px;
+    font-weight: 700; 
+    padding-block: 50px; 
+  } 
+   
+  .work { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 340px; 
+  } 
+  .work.box { 
+    padding: 20px 10px; 
+    background: rgba(30, 30, 32, 1); 
+    border-radius: 14px; 
+  } 
+  .work.box img { 
+    max-width: 260px; 
+    width: 100%; 
+  } 
+   
+  #image-1 { 
+    display: flex; 
+    align-self: flex-start; 
+  } 
+  #image-2 { 
+    display: flex; 
+    align-self: center; 
+  } 
+  #image-3 { 
+    display: flex; 
+    align-self: flex-end; 
+  } 
+  #start { 
+    padding-top: 60px; 
+  } 
+  .start { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  } 
+  .start h1 { 
+    font-size: 40px;
+    display: flex; 
+    width: 500px; 
+  } 
+   .start button{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+   }
+  #footer { 
+    padding-block: 50px; 
+  } 
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+  .footer { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
